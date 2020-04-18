@@ -7,8 +7,8 @@ import time
 import boto3
 
 print("Conectando con el servidor...", end='\r')
-ACCESS_KEY = 'AKIAQBCG2Q3XDJOAESHV'
-SECRET_KEY = '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'
+ACCESS_KEY = 'XXXXXXXXXXXXXXXX'
+SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx'
 ddb = boto3.client('dynamodb', region_name='eu-west-3', aws_access_key_id=ACCESS_KEY, aws_secret_access_key=SECRET_KEY)
 print(" "*width, end='\r')
 
